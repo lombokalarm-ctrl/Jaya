@@ -98,8 +98,8 @@ export default function Footer() {
             <div className="space-y-2 text-[#9A9A9A] text-[0.9rem] leading-[1.75]">
               <p>Jl. KH Ahmad Dahlan, Desa Perampuan</p>
               <p>Lombok Barat, Nusa Tenggara Barat</p>
-              <p>+62 8xx-xxxx-xxxx</p>
-              <p>info@kholidjaya.com</p>
+              <p>0878-6555-7001</p>
+              <p>order@lombokbangunan.com</p>
             </div>
           </div>
         </div>

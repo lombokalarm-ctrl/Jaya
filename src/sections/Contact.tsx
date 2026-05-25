@@ -16,7 +16,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Telepon",
-    content: "+62 8xx-xxxx-xxxx",
+    content: "0878-6555-7001",
   },
   {
     icon: Clock,
@@ -104,17 +104,13 @@ export default function Contact() {
             tepat.
           </p>
           <a
-            href="https://wa.me/628xxxxxxxxxx"
+            href="https://wa.me/6287865557001"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-full bg-[#25D366] text-white font-semibold px-10 py-4 transition-all duration-300 hover:bg-[#128C7E] hover:-translate-y-[1px] active:translate-y-0"
           >
             Hubungi via WhatsApp
           </a>
-
-          <p className="mt-4 text-[#666666] text-[0.875rem] leading-[1.6]">
-            *Silakan ganti nomor WhatsApp & telepon sesuai data toko.
-          </p>
         </div>
 
         {/* Right */}
@@ -149,4 +145,3 @@ export default function Contact() {
     </section>
   );
 }
-
