@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Share2, Globe } from "lucide-react";
+import { MessageCircle, Mail } from "lucide-react";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -113,18 +113,20 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-4">
             <a
-              href="#"
+              href="https://wa.me/6287865557001"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-[#9A9A9A] hover:text-[#C9A227] transition-colors duration-300"
-              aria-label="Instagram"
+              aria-label="WhatsApp"
             >
-              <Share2 className="w-5 h-5" />
+              <MessageCircle className="w-5 h-5" />
             </a>
             <a
-              href="#"
+              href="mailto:order@lombokbangunan.com"
               className="text-[#9A9A9A] hover:text-[#C9A227] transition-colors duration-300"
-              aria-label="Facebook"
+              aria-label="Email"
             >
-              <Globe className="w-5 h-5" />
+              <Mail className="w-5 h-5" />
             </a>
           </div>
         </div>

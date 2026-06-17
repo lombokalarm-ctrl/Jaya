@@ -38,6 +38,7 @@ export default function GrainOverlay() {
     resize();
 
     const draw = () => {
+      if (w <= 0 || h <= 0) return;
       const idata = ctx.createImageData(w, h);
       const buffer = idata.data;
       for (let i = 0; i < buffer.length; i += 4) {
@@ -86,4 +87,3 @@ export default function GrainOverlay() {
     />
   );
 }
-

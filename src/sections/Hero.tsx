@@ -104,9 +104,11 @@ export default function Hero() {
           <span ref={line1Ref} className="block opacity-0">
             SOLUSI
           </span>
+          {" "}
           <span ref={line2Ref} className="block opacity-0">
             BANGUNAN
           </span>
+          {" "}
           <span ref={line3Ref} className="block opacity-0">
             ANDA
           </span>

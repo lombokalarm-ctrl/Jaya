@@ -69,7 +69,7 @@ export default function Navigation() {
       >
         <div className="mx-auto flex h-[72px] max-w-[1280px] items-center justify-between px-[clamp(1.25rem,4vw,3.5rem)]">
           <a
-            href="#"
+            href="/"
             onClick={(e) => {
               e.preventDefault();
               setMobileOpen(false);
@@ -158,4 +158,3 @@ export default function Navigation() {
     </>
   );
 }
-
