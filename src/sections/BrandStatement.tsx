@@ -10,6 +10,7 @@ export default function BrandStatement() {
   const sectionRef = useRef<HTMLElement>(null);
   const labelRef = useRef<HTMLSpanElement>(null);
   const statementRef = useRef<HTMLHeadingElement>(null);
+  const paragraphRef = useRef<HTMLParagraphElement>(null);
   const ctaRef = useRef<HTMLAnchorElement>(null);
 
   useEffect(() => {
@@ -43,6 +44,23 @@ export default function BrandStatement() {
           y: 0,
           duration: 1,
           delay: 0.1,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: sectionRef.current,
+            start: "top 80%",
+            toggleActions: "play none none none",
+          },
+        }
+      );
+
+      gsap.fromTo(
+        paragraphRef.current,
+        { opacity: 0, y: 28 },
+        {
+          opacity: 1,
+          y: 0,
+          duration: 0.75,
+          delay: 0.2,
           ease: "power3.out",
           scrollTrigger: {
             trigger: sectionRef.current,
@@ -101,6 +119,17 @@ export default function BrandStatement() {
           Pilihan Utama untuk Bangunan Berkualitas di Lombok Barat
         </h2>
 
+        <p
+          ref={paragraphRef}
+          className="mx-auto mb-10 max-w-3xl text-[1.05rem] leading-[1.85] text-[#333333]"
+          style={{ opacity: 0 }}
+        >
+          Dari kebutuhan rumah tinggal hingga proyek bangunan, Kholid Jaya
+          membantu pelanggan Lombok Barat mendapatkan material yang lengkap,
+          harga yang masuk akal, dan layanan yang mudah dihubungi saat butuh
+          stok cepat.
+        </p>
+
         <a
           ref={ctaRef}
           href="#kontak"
@@ -120,4 +149,3 @@ export default function BrandStatement() {
     </section>
   );
 }
-

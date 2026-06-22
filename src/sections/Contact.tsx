@@ -101,8 +101,15 @@ export default function Contact() {
           <p className="text-[#333333] text-[1.125rem] leading-[1.75] mb-8">
             Kunjungi toko kami di Jl. KH Ahmad Dahlan, Desa Perampuan, Lombok
             Barat. Tim kami siap membantu Anda menemukan material bangunan yang
-            tepat.
+            tepat untuk kebutuhan di Labuapi, Gerung, Kediri, Kuripan, Lembar,
+            dan area Lombok Barat lainnya.
           </p>
+          <a
+            href="/area-layanan"
+            className="mb-8 inline-flex items-center gap-1 font-semibold text-[#C75146] transition-all duration-300 hover:underline underline-offset-4"
+          >
+            Lihat area layanan kami →
+          </a>
           <a
             href="https://wa.me/6287865557001"
             target="_blank"

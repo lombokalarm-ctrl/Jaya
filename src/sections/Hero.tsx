@@ -87,7 +87,7 @@ export default function Hero() {
           ref={labelRef}
           className="text-[#C9A227] font-semibold text-[0.875rem] uppercase tracking-[0.12em] mb-4 drop-shadow-[0_1px_12px_rgba(0,0,0,0.45)] opacity-0"
         >
-          TOKO BANGUNAN // LOBAR
+          TOKO BANGUNAN LOMBOK BARAT
         </span>
 
         <h1
@@ -118,7 +118,9 @@ export default function Hero() {
           ref={subtitleRef}
           className="text-white mt-6 text-[1.125rem] leading-[1.7] max-w-[520px] drop-shadow-[0_1px_18px_rgba(0,0,0,0.45)] opacity-0"
         >
-          Kholid Jaya — lengkapi semua kebutuhan konstruksi Anda di satu tempat.
+          Kholid Jaya menyediakan semen, besi, baja ringan, atap spandek, cat,
+          material listrik, dan alat pertukangan untuk rumah, toko, dan proyek
+          di Lombok Barat.
         </p>
 
         <div className="mt-8 flex flex-wrap items-center gap-4">

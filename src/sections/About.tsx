@@ -93,14 +93,15 @@ export default function About() {
                   letterSpacing: "-0.02em",
                 }}
               >
-                Lengkapi Kebutuhan Bangunan Anda
+                Material Bangunan Lengkap untuk Rumah dan Proyek
               </h2>
               <p className="text-[#333333] text-[1.125rem] leading-[1.75] mb-6">
-                Kholid Jaya adalah toko bangunan terpercaya di Lombok Barat. Kami
-                menyediakan semua kebutuhan konstruksi — dari semen, besi, cat,
-                baja ringan, spandek, hingga peralatan listrik dan alat
-                pertukangan. Dengan pengalaman bertahun-tahun, kami berkomitmen
-                memberikan produk berkualitas dengan harga bersaing.
+                Kholid Jaya adalah toko bangunan di Lombok Barat yang melayani
+                kebutuhan rumah tinggal, toko, renovasi, dan proyek. Kami
+                menyediakan semen, besi, baja ringan, atap spandek, cat,
+                material listrik, serta alat pertukangan dengan pilihan produk
+                yang lengkap, harga bersaing, dan layanan pengiriman untuk
+                Labuapi, Gerung, Kediri, Kuripan, Lembar, dan area sekitarnya.
               </p>
 
               <a
@@ -152,4 +153,3 @@ export default function About() {
     </section>
   );
 }
-

@@ -9,6 +9,7 @@ import Hero from "@/sections/Hero";
 import About from "@/sections/About";
 import ProductGallery from "@/sections/ProductGallery";
 import Services from "@/sections/Services";
+import ServiceAreasTeaser from "@/sections/ServiceAreasTeaser";
 import MoodGallery from "@/sections/MoodGallery";
 import BrandStatement from "@/sections/BrandStatement";
 import Contact from "@/sections/Contact";
@@ -31,6 +32,7 @@ export default function Home() {
         <About />
         <ProductGallery />
         <Services />
+        <ServiceAreasTeaser />
         <MoodGallery />
         <BrandStatement />
         <Contact />

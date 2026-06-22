@@ -16,12 +16,12 @@ const services = [
   {
     icon: Truck,
     title: "Pengiriman Cepat",
-    desc: "Layanan pengiriman ke seluruh area Lombok Barat dengan armada yang handal dan tepat waktu.",
+    desc: "Layanan pengiriman ke area Labuapi, Gerung, Kediri, Kuripan, Lembar, dan wilayah Lombok Barat lainnya dengan proses yang cepat dan tepat waktu.",
   },
   {
     icon: Users,
     title: "Konsultasi Gratis",
-    desc: "Tim ahli kami siap membantu Anda memilih material yang tepat sesuai kebutuhan dan anggaran proyek.",
+    desc: "Tim kami siap membantu memilih material yang sesuai untuk rumah tinggal, toko, renovasi, maupun proyek agar belanja lebih tepat guna.",
   },
   {
     icon: Tag,
@@ -137,4 +137,3 @@ export default function Services() {
     </section>
   );
 }
-
