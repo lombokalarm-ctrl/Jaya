@@ -5,6 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 import { cn } from "@/lib/utils";
 
 type NavItem = { label: string; target: string };
+const NAV_HEIGHT = 76;
 
 export default function Navigation() {
   const navLinks: NavItem[] = useMemo(
@@ -54,8 +55,7 @@ export default function Navigation() {
     const el = document.querySelector(target) as HTMLElement | null;
     if (!el) return;
 
-    // Offset tinggi navbar (72px)
-    const top = el.getBoundingClientRect().top + window.scrollY - 72;
+    const top = el.getBoundingClientRect().top + window.scrollY - NAV_HEIGHT;
     window.scrollTo({ top, behavior: "smooth" });
   };
 
@@ -68,7 +68,7 @@ export default function Navigation() {
         )}
         style={{ borderBottom: "1px solid rgba(0,0,0,0.06)" }}
       >
-        <div className="mx-auto flex h-[72px] max-w-[1280px] items-center justify-between px-[clamp(1.25rem,4vw,3.5rem)]">
+        <div className="mx-auto flex h-[76px] max-w-[1280px] items-center justify-between px-[clamp(1.25rem,4vw,3.5rem)]">
           <a
             href="/"
             onClick={(e) => {
@@ -79,14 +79,16 @@ export default function Navigation() {
             className="flex items-center"
             aria-label="Kholid Jaya Bangunan"
           >
-            <Image
-              src="/logo-kjb-full.svg"
-              alt="Kholid Jaya Bangunan"
-              width={640}
-              height={220}
-              priority
-              className="h-auto w-[170px] sm:w-[210px] lg:w-[235px]"
-            />
+            <div className="relative h-[58px] w-[132px] overflow-hidden sm:h-[64px] sm:w-[160px] lg:h-[68px] lg:w-[176px]">
+              <Image
+                src="/kjb.png"
+                alt="Kholid Jaya Bangunan"
+                width={640}
+                height={480}
+                priority
+                className="pointer-events-none h-auto w-[156px] max-w-none -translate-x-[8px] -translate-y-[18px] sm:w-[190px] sm:-translate-x-[10px] sm:-translate-y-[22px] lg:w-[208px] lg:-translate-x-[12px] lg:-translate-y-[24px]"
+              />
+            </div>
           </a>
 
           {/* Desktop */}
@@ -143,8 +145,8 @@ export default function Navigation() {
       {/* Mobile overlay */}
       {mobileOpen && (
         <div className="fixed inset-0 z-[65] bg-[#F5F3EE] md:hidden">
-          <div className="h-[72px]" />
-          <div className="flex h-[calc(100vh-72px)] flex-col items-center justify-center gap-8">
+          <div className="h-[76px]" />
+          <div className="flex h-[calc(100vh-76px)] flex-col items-center justify-center gap-8">
             {navLinks.map((link) => (
               <button
                 key={link.target}

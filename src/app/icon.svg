@@ -1,44 +1,33 @@
 <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="128" height="128" rx="24" fill="#F5F3EE"/>
   <g
-    fill="white"
-    font-family="Arial Black, Arial, sans-serif"
-    font-size="72"
-    font-weight="900"
     stroke="#C9A227"
     stroke-linecap="round"
     stroke-linejoin="round"
     stroke-width="8"
-    transform="translate(3 2)"
+    transform="translate(12 24) scale(0.62)"
   >
-    <text x="8" y="78">K</text>
-    <text x="42" y="78">J</text>
-    <text x="74" y="78">B</text>
+    <path d="M6 10V70" />
+    <path d="M6 40L40 10" />
+    <path d="M11 37L44 70" />
+    <path d="M56 16H92V58C92 68 84 76 74 76C65 76 57 72 53 64" />
+    <path d="M92 16V70" />
+    <path d="M92 16H131C142 16 149 22 149 31C149 40 142 45 131 45H92" />
+    <path d="M92 45H134C146 45 154 51 154 60C154 69 146 76 134 76H92" />
   </g>
   <g
-    fill="white"
-    font-family="Arial Black, Arial, sans-serif"
-    font-size="72"
-    font-weight="900"
     stroke="#0057A6"
     stroke-linecap="round"
     stroke-linejoin="round"
     stroke-width="8"
+    transform="translate(12 24) scale(0.62)"
   >
-    <text x="8" y="78">K</text>
-    <text x="42" y="78">J</text>
-    <text x="74" y="78">B</text>
+    <path d="M6 10V70" />
+    <path d="M6 40L40 10" />
+    <path d="M11 37L44 70" />
+    <path d="M56 16H92V58C92 68 84 76 74 76C65 76 57 72 53 64" />
+    <path d="M92 16V70" />
+    <path d="M92 16H131C142 16 149 22 149 31C149 40 142 45 131 45H92" />
+    <path d="M92 45H134C146 45 154 51 154 60C154 69 146 76 134 76H92" />
   </g>
-  <text
-    x="64"
-    y="108"
-    text-anchor="middle"
-    fill="#0057A6"
-    font-family="Arial Black, Arial, sans-serif"
-    font-size="13"
-    font-weight="900"
-    letter-spacing="0.6"
-  >
-    KHOLID JAYA
-  </text>
 </svg>
