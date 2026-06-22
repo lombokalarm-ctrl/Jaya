@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 import { cn } from "@/lib/utils";
 
@@ -75,10 +76,17 @@ export default function Navigation() {
               setMobileOpen(false);
               window.scrollTo({ top: 0, behavior: "smooth" });
             }}
-            className="text-[#2D6A4F] font-extrabold text-[1.05rem] sm:text-[1.125rem] uppercase tracking-[0.12em]"
-            style={{ fontFamily: "var(--font-display), var(--font-sans)" }}
+            className="flex items-center"
+            aria-label="Kholid Jaya Bangunan"
           >
-            KHOLID JAYA
+            <Image
+              src="/logo-kjb-full.svg"
+              alt="Kholid Jaya Bangunan"
+              width={640}
+              height={220}
+              priority
+              className="h-auto w-[170px] sm:w-[210px] lg:w-[235px]"
+            />
           </a>
 
           {/* Desktop */}

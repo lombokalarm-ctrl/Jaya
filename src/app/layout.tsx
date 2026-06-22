@@ -75,6 +75,10 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: siteTitle,
   description: siteDescription,
+  icons: {
+    icon: [{ url: "/favicon-kjb.svg", type: "image/svg+xml" }],
+    shortcut: ["/favicon-kjb.svg"],
+  },
   keywords: [
     "toko bangunan lombok barat",
     "material bangunan lombok barat",

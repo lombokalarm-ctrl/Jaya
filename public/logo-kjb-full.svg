@@ -1,0 +1,59 @@
+<svg width="640" height="220" viewBox="0 0 640 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Kholid Jaya Bangunan</title>
+  <desc>Logo KJB dengan teks Kholid Jaya Bangunan dan Toko Bangunan dan Material.</desc>
+  <g transform="translate(0 2)">
+    <g
+      fill="white"
+      font-family="Arial Black, Arial, sans-serif"
+      font-size="160"
+      font-weight="900"
+      stroke="#C9A227"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="18"
+      transform="translate(8 6)"
+    >
+      <text x="44" y="118">K</text>
+      <text x="180" y="118">J</text>
+      <text x="304" y="118">B</text>
+    </g>
+    <g
+      fill="white"
+      font-family="Arial Black, Arial, sans-serif"
+      font-size="160"
+      font-weight="900"
+      stroke="#0057A6"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="18"
+    >
+      <text x="44" y="118">K</text>
+      <text x="180" y="118">J</text>
+      <text x="304" y="118">B</text>
+    </g>
+  </g>
+  <text
+    x="320"
+    y="172"
+    text-anchor="middle"
+    fill="#0057A6"
+    font-family="Arial Black, Arial, sans-serif"
+    font-size="42"
+    font-weight="900"
+    letter-spacing="1.4"
+  >
+    KHOLID JAYA BANGUNAN
+  </text>
+  <text
+    x="320"
+    y="205"
+    text-anchor="middle"
+    fill="#0057A6"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="28"
+    font-weight="700"
+    letter-spacing="0.6"
+  >
+    Toko Bangunan &amp; Material
+  </text>
+</svg>

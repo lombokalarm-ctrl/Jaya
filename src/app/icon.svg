@@ -1,0 +1,44 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="24" fill="#F5F3EE"/>
+  <g
+    fill="white"
+    font-family="Arial Black, Arial, sans-serif"
+    font-size="72"
+    font-weight="900"
+    stroke="#C9A227"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="8"
+    transform="translate(3 2)"
+  >
+    <text x="8" y="78">K</text>
+    <text x="42" y="78">J</text>
+    <text x="74" y="78">B</text>
+  </g>
+  <g
+    fill="white"
+    font-family="Arial Black, Arial, sans-serif"
+    font-size="72"
+    font-weight="900"
+    stroke="#0057A6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="8"
+  >
+    <text x="8" y="78">K</text>
+    <text x="42" y="78">J</text>
+    <text x="74" y="78">B</text>
+  </g>
+  <text
+    x="64"
+    y="108"
+    text-anchor="middle"
+    fill="#0057A6"
+    font-family="Arial Black, Arial, sans-serif"
+    font-size="13"
+    font-weight="900"
+    letter-spacing="0.6"
+  >
+    KHOLID JAYA
+  </text>
+</svg>
