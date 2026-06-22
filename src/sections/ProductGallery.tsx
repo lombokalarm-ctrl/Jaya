@@ -42,18 +42,21 @@ const products = [
     name: "Cat & Pelitur",
     category: "FINISHING",
     desc: "Berbagai pilihan cat interior, eksterior, dan pelitur kayu.",
+    href: "/cat-pelitur",
   },
   {
     image: "/product-listrik.jpg",
     name: "Peralatan Listrik",
     category: "KELISTRIKAN",
     desc: "Kabel, saklar, stop kontak, dan komponen listrik lengkap.",
+    href: "/peralatan-listrik",
   },
   {
     image: "/product-alat.jpg",
     name: "Alat Pertukangan",
     category: "PERKAKAS",
     desc: "Peralatan tangan dan mesin untuk pekerjaan konstruksi.",
+    href: "/alat-pertukangan",
   },
 ];
 

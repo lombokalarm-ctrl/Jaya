@@ -229,6 +229,159 @@ export const categoryPages: Record<string, CategoryPageData> = {
     ],
     relatedSlugs: ["baja-ringan", "besi-baja", "semen-beton"],
   },
+  "cat-pelitur": {
+    slug: "cat-pelitur",
+    title: "Cat & Pelitur",
+    shortTitle: "Cat & Pelitur",
+    heroTitle: "Jual Cat dan Pelitur di Lombok Barat",
+    heroDescription:
+      "Kholid Jaya menyediakan cat bangunan dan pelitur untuk interior, eksterior, serta finishing kayu bagi rumah dan proyek di Lombok Barat.",
+    seoTitle: "Jual Cat dan Pelitur Lombok Barat | Kholid Jaya",
+    seoDescription:
+      "Cari toko cat bangunan di Lombok Barat? Kholid Jaya menyediakan cat interior, cat eksterior, dan pelitur kayu dengan harga bersaing dan layanan konsultasi.",
+    image: "/product-cat.jpg",
+    imageAlt: "Cat bangunan dan pelitur untuk finishing rumah di Lombok Barat",
+    introTitle: "Finishing Bangunan yang Rapi dan Tahan Lama",
+    introBody:
+      "Pemilihan cat dan pelitur yang tepat membantu menjaga tampilan bangunan tetap rapi sekaligus melindungi permukaan dinding dan kayu. Kami melayani kebutuhan finishing untuk rumah tinggal, toko, renovasi, dan proyek bangunan di Lombok Barat.",
+    items: [
+      "Cat interior untuk hunian dan ruang usaha",
+      "Cat eksterior untuk perlindungan dinding luar",
+      "Pelitur kayu untuk finishing furnitur dan kusen",
+      "Pilihan produk untuk renovasi maupun bangunan baru",
+    ],
+    applications: [
+      "Pengecatan rumah tinggal",
+      "Finishing toko, ruko, dan ruang usaha",
+      "Pelapisan kusen, pintu, dan elemen kayu",
+      "Perawatan ulang bangunan lama",
+    ],
+    highlights: [
+      "Membantu pelanggan memilih produk finishing yang sesuai",
+      "Cocok untuk kebutuhan rumah, toko, dan proyek renovasi",
+      "Siap melayani pembelian dan pengiriman di Lombok Barat",
+    ],
+    faqs: [
+      {
+        question: "Apakah tersedia cat untuk interior dan eksterior?",
+        answer:
+          "Ya. Kami melayani kebutuhan cat untuk area dalam ruangan maupun luar bangunan sesuai jenis pekerjaan Anda.",
+      },
+      {
+        question: "Apakah pelitur bisa untuk kusen dan furnitur kayu?",
+        answer:
+          "Bisa. Pelitur cocok untuk finishing kayu seperti kusen, pintu, dan elemen furnitur agar tampil lebih rapi dan terlindungi.",
+      },
+      {
+        question: "Bisakah saya konsultasi dulu sebelum membeli cat?",
+        answer:
+          "Bisa. Anda dapat menghubungi kami melalui WhatsApp untuk menanyakan kebutuhan cat, pelitur, dan produk pendukung lainnya.",
+      },
+    ],
+    relatedSlugs: ["semen-beton", "alat-pertukangan", "peralatan-listrik"],
+  },
+  "peralatan-listrik": {
+    slug: "peralatan-listrik",
+    title: "Peralatan Listrik",
+    shortTitle: "Peralatan Listrik",
+    heroTitle: "Jual Peralatan Listrik di Lombok Barat",
+    heroDescription:
+      "Kholid Jaya menyediakan kabel, saklar, stop kontak, dan material listrik untuk rumah, toko, serta proyek renovasi di Lombok Barat.",
+    seoTitle: "Jual Peralatan Listrik Lombok Barat | Kholid Jaya",
+    seoDescription:
+      "Butuh peralatan listrik di Lombok Barat? Kholid Jaya menyediakan kabel, saklar, stop kontak, dan komponen listrik untuk kebutuhan rumah dan proyek.",
+    image: "/product-listrik.jpg",
+    imageAlt: "Peralatan listrik untuk rumah dan bangunan di Lombok Barat",
+    introTitle: "Kebutuhan Kelistrikan untuk Rumah dan Proyek",
+    introBody:
+      "Kami membantu pelanggan menyiapkan material listrik untuk instalasi baru, renovasi, dan perbaikan bangunan. Produk yang tersedia cocok untuk kebutuhan rumah tinggal, ruko, dan bangunan usaha di Lombok Barat.",
+    items: [
+      "Kabel untuk kebutuhan instalasi bangunan",
+      "Saklar dan stop kontak",
+      "Komponen listrik untuk rumah dan toko",
+      "Pilihan produk untuk pekerjaan instalasi baru dan renovasi",
+    ],
+    applications: [
+      "Instalasi listrik rumah tinggal",
+      "Renovasi instalasi listrik bangunan lama",
+      "Kebutuhan listrik untuk ruko dan toko",
+      "Perbaikan area listrik bangunan usaha",
+    ],
+    highlights: [
+      "Cocok untuk kebutuhan teknisi, tukang, dan pemilik rumah",
+      "Bisa konsultasi kebutuhan material listrik dasar",
+      "Melayani pembelian untuk renovasi maupun proyek baru",
+    ],
+    faqs: [
+      {
+        question: "Apakah tersedia material listrik untuk rumah tinggal?",
+        answer:
+          "Ya. Kami menyediakan material listrik dasar untuk rumah tinggal, renovasi, dan kebutuhan bangunan usaha.",
+      },
+      {
+        question: "Bisakah saya beli untuk proyek renovasi kecil?",
+        answer:
+          "Bisa. Kami melayani kebutuhan proyek kecil hingga menengah sesuai material yang Anda perlukan.",
+      },
+      {
+        question: "Bagaimana cara menanyakan stok peralatan listrik?",
+        answer:
+          "Anda bisa menghubungi kami melalui WhatsApp untuk mengecek kebutuhan material listrik dan ketersediaannya.",
+      },
+    ],
+    relatedSlugs: ["alat-pertukangan", "cat-pelitur", "semen-beton"],
+  },
+  "alat-pertukangan": {
+    slug: "alat-pertukangan",
+    title: "Alat Pertukangan",
+    shortTitle: "Alat Pertukangan",
+    heroTitle: "Jual Alat Pertukangan di Lombok Barat",
+    heroDescription:
+      "Kholid Jaya menyediakan alat pertukangan untuk pekerjaan bangunan, renovasi rumah, dan kebutuhan tukang di Lombok Barat.",
+    seoTitle: "Jual Alat Pertukangan Lombok Barat | Kholid Jaya",
+    seoDescription:
+      "Cari alat pertukangan di Lombok Barat? Kholid Jaya menyediakan peralatan kerja untuk tukang, renovasi rumah, dan proyek bangunan dengan harga bersaing.",
+    image: "/product-alat.jpg",
+    imageAlt: "Alat pertukangan untuk proyek bangunan di Lombok Barat",
+    introTitle: "Peralatan Kerja untuk Tukang dan Renovasi Bangunan",
+    introBody:
+      "Alat pertukangan yang tepat membantu pekerjaan menjadi lebih cepat, rapi, dan efisien. Kami melayani kebutuhan alat kerja untuk tukang, renovasi rumah, serta proyek pembangunan di Lombok Barat.",
+    items: [
+      "Peralatan tangan untuk pekerjaan bangunan",
+      "Alat kerja untuk tukang dan renovasi rumah",
+      "Pilihan peralatan untuk pekerjaan dasar hingga finishing",
+      "Kebutuhan alat untuk rumah, toko, dan proyek lapangan",
+    ],
+    applications: [
+      "Pekerjaan tukang harian",
+      "Renovasi rumah tinggal",
+      "Pembangunan dan perbaikan bangunan usaha",
+      "Pekerjaan finishing dan perawatan bangunan",
+    ],
+    highlights: [
+      "Melayani kebutuhan tukang, pemilik rumah, dan proyek kecil",
+      "Cocok untuk pembelian alat kerja sehari-hari",
+      "Bisa dikombinasikan dengan pembelian material bangunan lain",
+    ],
+    faqs: [
+      {
+        question: "Apakah alat pertukangan bisa dibeli untuk kebutuhan rumah?",
+        answer:
+          "Bisa. Kami melayani pembelian alat pertukangan untuk kebutuhan rumah tangga, renovasi, maupun pekerjaan tukang profesional.",
+      },
+      {
+        question: "Apakah tersedia alat untuk proyek bangunan kecil?",
+        answer:
+          "Ya. Produk yang kami sediakan cocok untuk pekerjaan proyek kecil, renovasi, dan kebutuhan kerja harian.",
+      },
+      {
+        question: "Bisakah saya sekalian pesan material lain?",
+        answer:
+          "Bisa. Anda dapat membeli alat pertukangan bersamaan dengan material bangunan lain sesuai kebutuhan proyek Anda.",
+      },
+    ],
+    relatedSlugs: ["peralatan-listrik", "cat-pelitur", "besi-baja"],
+  },
 };
 
 export const categoryPageList = Object.values(categoryPages);
