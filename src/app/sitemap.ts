@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { categoryPageList } from "@/lib/category-pages";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
@@ -20,5 +21,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
         "https://lombokbangunan.com/product-alat.jpg",
       ],
     },
+    ...categoryPageList.map((page) => ({
+      url: `https://lombokbangunan.com/${page.slug}`,
+      lastModified,
+      changeFrequency: "weekly" as const,
+      priority: 0.9,
+      images: [`https://lombokbangunan.com${page.image}`],
+    })),
   ];
 }

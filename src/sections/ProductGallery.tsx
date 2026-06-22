@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -13,24 +14,28 @@ const products = [
     name: "Semen & Beton",
     category: "BAHAN DASAR",
     desc: "Semen Portland dan beton instan berkualitas untuk fondasi yang kokoh.",
+    href: "/semen-beton",
   },
   {
     image: "/product-besi.jpg",
     name: "Besi & Baja",
     category: "STRUKTUR",
     desc: "Besi beton, wiremesh, dan baja struktural untuk konstruksi Anda.",
+    href: "/besi-baja",
   },
   {
     image: "/product-bajaringan.jpg",
     name: "Baja Ringan",
     category: "ATAP & RANGKA",
     desc: "Rangka atap baja ringan tahan karat dengan garansi kualitas.",
+    href: "/baja-ringan",
   },
   {
     image: "/product-atap.jpg",
     name: "Atap Spandek",
     category: "ATAP & RANGKA",
     desc: "Genteng metal dan atap spandek tahan cuaca ekstrem.",
+    href: "/atap-spandek",
   },
   {
     image: "/product-cat.jpg",
@@ -167,6 +172,14 @@ export default function ProductGallery() {
               <p className="text-[#A7A7A7] text-[0.9rem] leading-[1.6]">
                 {product.desc}
               </p>
+              {product.href ? (
+                <Link
+                  href={product.href}
+                  className="mt-4 inline-flex items-center gap-2 text-[0.9rem] font-semibold text-[#F5F3EE] underline decoration-white/20 underline-offset-4 transition-colors duration-300 hover:text-[#C9A227] hover:decoration-[#C9A227]/40"
+                >
+                  Lihat detail kategori
+                </Link>
+              ) : null}
             </div>
           </article>
         ))}

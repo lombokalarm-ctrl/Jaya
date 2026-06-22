@@ -45,7 +45,10 @@ export default function Footer() {
 
   const handleLinkClick = (target: string) => {
     const el = document.querySelector(target) as HTMLElement | null;
-    if (!el) return;
+    if (!el) {
+      window.location.assign(`/${target}`);
+      return;
+    }
     const top = el.getBoundingClientRect().top + window.scrollY - 72;
     window.scrollTo({ top, behavior: "smooth" });
   };
